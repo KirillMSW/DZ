@@ -1,4 +1,4 @@
-// DZ2.7.cpp: определяет точку входа для консольного приложения.
+// DZ2.7.cpp: Г®ГЇГ°ГҐГ¤ГҐГ«ГїГҐГІ ГІГ®Г·ГЄГі ГўГµГ®Г¤Г  Г¤Г«Гї ГЄГ®Г­Г±Г®Г«ГјГ­Г®ГЈГ® ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї.
 //
 
 #include "stdafx.h"
@@ -15,7 +15,7 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 	srand(time(NULL));
-	int manp=0, comp=0;//переменные для подсчета очков человека и компьютера
+	int manp=0, comp=0;//ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г»ГҐ Г¤Г«Гї ГЇГ®Г¤Г±Г·ГҐГІГ  Г®Г·ГЄГ®Гў Г·ГҐГ«Г®ГўГҐГЄГ  ГЁ ГЄГ®Г¬ГЇГјГѕГІГҐГ°Г 
 	int random=0;
 	bool t = rand()%2;
 	if (t == 0)
@@ -59,7 +59,7 @@ int computer(int random,int comp)
 }
 int man(int random, int manp)
 {
-	bool null;
+	bool null;//empty var for getch
 	cout << "Your turn" << endl << "Press any key to throw the dice";
 	null=_getch();
 	cout << endl;
